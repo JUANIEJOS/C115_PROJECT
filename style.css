@@ -1,0 +1,29 @@
+h1{
+    font-size: 25px !important;
+}
+
+.btn-success:hover{
+background-color: red;
+}
+.btn-success, .btn-primary{
+    animation-name: button;
+    animation-duration:4s ;
+    animation-iteration-count: infinite;
+}
+@keyframes button{
+    from{box-shadow: 2px 2px 30px rgb(97, 42,71);}
+    to{box-shadow: 2px 2px 30px rgb(70, 189, 197);
+}}
+
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 2px 2px 30px rgb(97, 42,71);}
+    to{box-shadow: 2px 2px 30px rgb(70, 189, 197);
+    
+}
+}
